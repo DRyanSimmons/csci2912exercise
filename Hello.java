@@ -9,14 +9,23 @@ package hello;
  *
  * @author Dean Ryan-Simmons
  */
-public class Hello {
 
+
+public class Hello {
+   
     /**
      * @param args the command line arguments
      */
+    
+     public static String msg = "Hello";
+    
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println("Hello");
+       // System.out.println("Hello");
+       greeting(msg);  
     }
     
+    public static void greeting(String x){
+         System.out.println(x);   
+    }
 }
